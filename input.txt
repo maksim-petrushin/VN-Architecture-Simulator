@@ -1,0 +1,19 @@
+5 5     // IN <5> //program that multiplies 2 numbers
+10      // SKIPG
+8 20    // JMP 20
+3 2     // STORE 2
+5 5     // IN <5>
+10      // SKIPG
+8 24    // JMP 25
+3 3     // STORE 3
+1 3     // LOAD 3
+2 4     // ADD 4
+3 4     // STORE 4
+1 2     // LOAD 2
+4 1     // SUBT 1 (value 1)
+3 2     // STORE 2
+9       // SKIPZ
+8 28    // JMP 30 
+1 4     // LOAD 3
+6 7     // OUT <7>
+7       // HALT

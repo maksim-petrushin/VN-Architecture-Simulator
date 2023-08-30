@@ -1,0 +1,3 @@
+/Users/maksimpetrushin/cs2lab/game_dev_c/sdl-test/build/CMakeFiles/runme.dir
+/Users/maksimpetrushin/cs2lab/game_dev_c/sdl-test/build/CMakeFiles/edit_cache.dir
+/Users/maksimpetrushin/cs2lab/game_dev_c/sdl-test/build/CMakeFiles/rebuild_cache.dir
