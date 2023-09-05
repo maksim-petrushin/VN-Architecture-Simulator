@@ -57,8 +57,21 @@ There is a lot of abstraction in this simulator. Going one abstraction level low
 
 3. Go to the directory of this cloned repository. Type command "make". Then type command "./runme"
 
-4. NOTE: address zero in DM Data Memory is reserved for value 1 (one)
+4. NOTE: address one in the Memory is reserved for value 1 (one)
+
+5. NOTE: the written "assembly" code should assume that first line of it starts at a line 20. This is because lines 0-19 are reserved for calculations and variables. 
+
+6. NOTE: the input.txt code is space friendly, except for the very first line. There should be no whitespace before the first line of code (the first line should exclusively start with the code).
 ## UI Features
+- ### Keyboard Keys
+1. SHIFT (left) key on keyboard starts the execution of the program (sets the fetch-execute cycle to fetch the operation)
+2. N key on keyboard sets the speed at normal (1000 ms per standard animation)
+3. D key on keyboard sets the speed at double (500 ms per standard animation)
+4. Q key on keyboard sets the speed at quadriple (250 ms per standard animation)
+5. M key on keyboard sets the speed at maximum (45 ms per standard animation)
+6. A key on keyboard toggles the animation (greed register values traveling between registers)
+7. To write input to console, click on the console, enter a number, and press ENTER
+8. ESC key on keyboard halts the simulation.
 - ### Drag the Screen using Mouse
 ![Screen-Recording-2023-08-29-at-1 (3)](https://github.com/maksim-petrushin/VN-Machine-simulator/assets/136845116/88c1bb44-805f-45d7-8535-8c091adfce60)
 
