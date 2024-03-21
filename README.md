@@ -48,7 +48,7 @@ There is a lot of abstraction in this simulator. Going one abstraction level low
   #### Code: 
 ![image](https://github.com/maksim-petrushin/VN-Machine-simulator/assets/136845116/ba8a773a-7776-4e32-a704-489415354d9f)
 
-## Steps to Run (on Mac)
+## Steps to Run
 1. Clone this repository into your computer directory
 2. Write a "assembly" VM-program and name it specifically "input.txt". (in the same directory as proj.c)
     Structure of program lines: 
